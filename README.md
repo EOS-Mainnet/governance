@@ -1,11 +1,12 @@
 # Governance
 
-## Community Effort Documents
+## Community Launch Docs
 
-- [Constitution](governance/constitution.md)
+- [EOS Constitution](governance/constitution.md)
+- [EOS BP Agreement](eosio.system/eosio.system-regproducer-rc.md)
 
 ## Ricardian Contracts
 
-### `eosio.system`
+### [`eosio.system`](eosio.system)
 
-### `eosio.token`
+### [`eosio.token`](eosio.token)
