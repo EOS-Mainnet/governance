@@ -2,7 +2,7 @@
 
 ## Community Launch Docs
 
-- [EOS Constitution](governance/constitution.md)
+- [EOS Constitution](eosio.system/eosio.system-clause-constitution-rc.md)
 - [EOS BP Agreement](eosio.system/eosio.system-regproducer-rc.md)
 
 ## ABI with Ricardian Contracts
