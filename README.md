@@ -5,8 +5,8 @@
 - [EOS Constitution](governance/constitution.md)
 - [EOS BP Agreement](eosio.system/eosio.system-regproducer-rc.md)
 
-## Ricardian Contracts
+## ABI with Ricardian Contracts
 
-### [`eosio.system`](eosio.system)
+### [`eosio.system.abi`](https://raw.githubusercontent.com/EOS-Mainnet/governance/master/eosio.system/eosio.system.abi)
 
-### [`eosio.token`](eosio.token)
+### [`eosio.token.abi`](https://raw.githubusercontent.com/EOS-Mainnet/governance/master/eosio.token/eosio.token.abi)
