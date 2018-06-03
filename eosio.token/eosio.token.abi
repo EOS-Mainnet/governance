@@ -99,12 +99,12 @@
     {
       "name": "issue",
       "type": "issue",
-      "ricardian_contract": "# Action - `{{ issue }}`\n\nThis Contract is legally binding and can be used in the event of a dispute. Disputes shall be settled through the standard arbitration process established by EOS.IO.\n\n### Description\n\nThe `{{ issue }}` action... \n\n### Inputs and Input Types\n\nThe `{{ issue }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ issue }}` | `{{ toVar }}`<br/>`{{ quantityVar }}`<br/>`{{ memoVar }}` | `{{ account_name }}`<br/>`{{ asset }}`<br/>`{{ string }}` |\n"
+      "ricardian_contract": ""
     },
     {
       "name": "create",
       "type": "create",
-      "ricardian_contract": "# Action - `{{ create }}`\n\nThis Contract is legally binding and can be used in the event of a dispute. Disputes shall be settled through the standard arbitration process established by EOS.IO.\n\n### Description\n\nThe `{{ create }}` action... \n\n### Inputs and Input Types\n\nThe `{{ create }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ create }}` | `{{ issuerVar }}`<br/>`{{ maximum_supplyVar }}` | `{{ account_name }}`<br/>`{{ asset }}` |\n"
+      "ricardian_contract": ""
     }
   ],
   "tables": [
