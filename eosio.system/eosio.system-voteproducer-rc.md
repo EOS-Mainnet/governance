@@ -14,5 +14,3 @@ If I am not the beneficial owner of these shares I stipulate I have proof that I
 I stipulate I have not and will not accept anything of value in exchange for these votes, on penalty of confiscation of these tokens, and other penalties. 
 
 I acknowledge that using any system of automatic voting, re-voting, or vote refreshing, or allowing such a system to be used on my behalf or on behalf of another, is forbidden and doing so violates this contract.
-
-All disputes arising from this contract shall be resolved in the EOS Core Arbitration Forum. 
