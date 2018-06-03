@@ -1,8 +1,5 @@
 # Ricardian Contract for *voteproducer*
 
-This Ricardian contract for the system command *voteproducer* is legally binding and can be used in the event of a dispute.
-
-
 ## VOTEPRODUCER (voter; array:producers)
 
 _Intent: cast a valid vote for up to 30 BP candidates_
