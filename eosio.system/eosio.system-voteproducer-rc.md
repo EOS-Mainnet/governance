@@ -1,8 +1,8 @@
 # Action - `{{ voteproducer }}`
 
-### Description
+## Description
 
-The intent of the {{ voteproducer }} action is to cast a valid vote for up to 30 BP candidates. 
+The intent of the `{{ voteproducer }}` action is to cast a valid vote for up to 30 BP candidates. 
 
 As an authorized party I {{ signer }} wish to vote on behalf of {{ voter }} in favor of the block producer candidates {{ producers }} with a voting weight equal to all tokens currently owned by {{ voter }} and staked for CPU or bandwidth. 
 
