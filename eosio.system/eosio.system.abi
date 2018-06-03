@@ -915,52 +915,52 @@
     {
       "name": "newaccount",
       "type": "newaccount",
-      "ricardian_contract": "# Action - `{{ newaccount }}`\n\n### Description\n\nThe `{{ newaccount }}` action creates a new account.\n\n### Inputs and Input Types\n\nThe `{{ newaccount }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ newaccount }}` | `{{ creatorVar }}`<br/>`{{ nameVar }}`<br/>`{{ ownerVar }}`<br/>`{{ activeVar }}` | `{{ account_name }}`<br/>`{{ account_name }}`<br/>`{{ authority }}`<br/>`{{ authority }}` |\n\nAs an authorized party I {{ signer }} wish to exercise the authority of {{ creatorVar }} to create a new account on this system named {{ nameVar }} such that the new account's owner public key shall be {{ ownerVar }} and the active public key shall be {{ activeVar }}.\n"
+      "ricardian_contract": "# Action - `{{ newaccount }}`\n\n### Description\n\nThe `{{ newaccount }}` action creates a new account.\n\nAs an authorized party I {{ signer }} wish to exercise the authority of {{ creator }} to create a new account on this system named {{ name }} such that the new account's owner public key shall be {{ owner }} and the active public key shall be {{ active }}.\n"
     },
     {
       "name": "setcode",
       "type": "setcode",
-      "ricardian_contract": "# Action - `{{ setcode }}`\n\n### Description\n\nThis action updates the code that will run in response to delivered actions. It may be performed by the account upon which the code is being deployed.\n\nBy deploying this code you certify that:\n\n1. the code is not malicious\n2. you are authorized to perform the actions automated by the code\n3. the code is consistant with the ABI deployed and intent of the contract\n4. updates to the code are consistant with the prior code's intent \n"
+      "ricardian_contract": ""
     },
     {
       "name": "setabi",
       "type": "setabi",
-      "ricardian_contract": "# Action - `{{ setabi }}`\n\n### Description\n\nThe intention of the `{{ setabi }}` action is to... \n\n### Inputs and Input Types\n\nThe `{{ setabi }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ setabi }}` | `{{ accountVar }}`<br/>`{{ abiVar }}` | `{{ account_name }}`<br/>`{{ bytes }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "updateauth",
       "type": "updateauth",
-      "ricardian_contract": "# Action - `{{ updateauth }}`\n\n### Description\n\nThe `{{ updateauth }}` action... \n\n### Inputs and Input Types\n\nThe `{{ updateauth }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ updateauth }}` | `{{ accountVar }}`<br/>`{{ permissionVar }}`<br/>`{{ parentVar }}`<br/>`{{ authVar }}` | `{{ account_name }}`<br/>`{{ permission_name }}`<br/>`{{ permission_name }}`<br/>`{{ authority }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "deleteauth",
       "type": "deleteauth",
-      "ricardian_contract": "# Action - `{{ deleteauth }}`\n\n### Description\n\nThe `{{ deleteauth }}` action... \n\n### Inputs and Input Types\n\nThe `{{ deleteauth }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ deleteauth }}` | `{{ accountVar }}`<br/>`{{ permissionVar }}` | `{{ account_name }}`<br/>`{{ permission_name }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "linkauth",
       "type": "linkauth",
-      "ricardian_contract": "# Action - `{{ linkauth }}`\n\n### Description\n\nThe `{{ linkauth }}` action... \n\n### Inputs and Input Types\n\nThe `{{ linkauth }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ linkauth }}` | `{{ accountVar }}`<br/>`{{ codeVar }}`<br/>`{{ typeVar }}`<br/>`{{ requirementVar }}` | `{{ account_name }}`<br/>`{{ account_name }}`<br/>`{{ action_name }}`<br/>`{{ permission_name }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "unlinkauth",
       "type": "unlinkauth",
-      "ricardian_contract": "# Action - `{{ unlinkauth }}`\n\n### Description\n\nThe `{{ unlinkauth }}` action... \n\n### Inputs and Input Types\n\nThe `{{ unlinkauth }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ unlinkauth }}` | `{{ accountVar }}`<br/>`{{ codeVar }}`<br/>`{{ typeVar }}` | `{{ account_name }}`<br/>`{{ account_name }}`<br/>`{{ action_name }}` |\n\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "canceldelay",
       "type": "canceldelay",
-      "ricardian_contract": "# Action - `{{ canceldelay }}`\n\n### Description\n\nThe `{{ canceldelay }}` action cancels an existing delayed transaction.\n\n### Inputs and Input Types\n\nThe `{{ canceldelay }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ canceldelay }}` | `{{ canceling_authVar }}`<br/>`{{ trx_idVar }}` | `{{ permission_level }}`<br/>`{{ transaction_id_type }}` |\n\nAs an authorized party I {{ signer }} wish to invoke the authority of {{ canceling_authVar }} to cancel the transaction with ID {{ trx_idVar }}.\n"
+      "ricardian_contract": "# Action - `{{ canceldelay }}`\n\n### Description\n\nThe `{{ canceldelay }}` action cancels an existing delayed transaction.\n\nAs an authorized party I {{ signer }} wish to invoke the authority of {{ canceling_auth }} to cancel the transaction with ID {{ trx_id }}.\n"
     },
     {
       "name": "onerror",
       "type": "onerror",
-      "ricardian_contract": "# Action - `{{ onerror }}`\n\n### Description\n\nThe `{{ onerror }}` action... \n\n### Inputs and Input Types\n\nThe `{{ onerror }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ onerror }}` | `{{ sender_idVar }}`<br/>`{{ sent_trxVar }}` | `{{ uint128 }}`<br/>`{{ bytes }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "buyrambytes",
       "type": "buyrambytes",
-      "ricardian_contract": "# Action - `{{ buyrambytes }}`\n\n### Description\n\nThis action will attempt to reserve about {{bytes}} bytes of RAM on behalf of {{receiver}}. \n\n{{buyer}} authorizes this conrtact to transfer sufficient SYS tokens to buy the RAM based upon the current price as determined by the market maker algorithm.\n\n{{buyer}} accepts that a 0.5% fee will be charged on the SYS spent and that the actual RAM received may be slightly less than requested due to the approximations necessary to enable this service.\n{{buyer}} accepts that a 0.5% fee will be charged if and when they sell the RAM received.\n{{buyer}} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.\n{{buyer}} acknowledges that the supply of RAM may be increased at any time up to the limits of off-the-shelf computer equipment and that this may result in RAM selling for less than purchase price.\n{{buyer}} acknowledges that the price of RAM may increase or decrease over time according to supply and demand.\n{{buyer}} acknowledges that RAM is non-transferrable. \n{{buyer}} acknowledges RAM currently in use by their account cannot be sold until it is freed and that freeing RAM may be subject to terms of other contracts.\n\n"
+      "ricardian_contract": "# Action - `{{ buyrambytes }}`\n\n### Description\n\nThis action will attempt to reserve about {{bytes}} bytes of RAM on behalf of {{receiver}}. \n\n{{buyer}} authorizes this contract to transfer sufficient EOS tokens to buy the RAM based upon the current price as determined by the market maker algorithm.\n\n{{buyer}} accepts that a 0.5% fee will be charged on the EOS spent and that the actual RAM received may be slightly less than requested due to the approximations necessary to enable this service.\n{{buyer}} accepts that a 0.5% fee will be charged if and when they sell the RAM received.\n{{buyer}} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.\n{{buyer}} acknowledges that the supply of RAM may be increased at any time up to the limits of off-the-shelf computer equipment and that this may result in RAM selling for less than purchase price.\n{{buyer}} acknowledges that the price of RAM may increase or decrease over time according to supply and demand.\n{{buyer}} acknowledges that RAM is non-transferable. \n{{buyer}} acknowledges RAM currently in use by their account cannot be sold until it is freed and that freeing RAM may be subject to terms of other contracts.\n\n"
     },
     {
       "name": "buyram",
@@ -970,7 +970,7 @@
     {
       "name": "sellram",
       "type": "sellram",
-      "ricardian_contract": "# Action - `{{ sellram }}`\n\n### Description\n\nThe `{{ sellram }}` action sells unused RAM for tokens.\n\n### Inputs and Input Types\n\nThe `{{ sellram }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ sellram }}` | `{{ accountVar }}`<br/>`{{ bytesVar }}` | `{{ account_name }}`<br/>`{{ uint64 }}` |\n\nAs an authorized party I {{ signer }} wish to sell {{ bytesVar }} of RAM from account {{ accountVar }}. \n"
+      "ricardian_contract": "# Action - `{{ sellram }}`\n\n## Description\n\nThe `{{ sellram }}` action sells unused RAM for tokens.\n\nAs an authorized party I {{ signer }} wish to sell {{ bytes }} of unused RAM from account {{ account }}. \n"
     },
     {
       "name": "delegatebw",
@@ -985,7 +985,7 @@
     {
       "name": "refund",
       "type": "refund",
-      "ricardian_contract": "# Action - `{{ refund }}`\n\n### Description\n\nThe intent of the `{{ refund }}` action is to return previously unstaked tokens to an account after the unstaking period has elapsed. \n\n### Input and Input Type\n\nThe `{{ refund }}` action requires the following `input` and `input type`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ refund }}` | `{{ ownerVar }}` | `{{ account_name }}` |\n\n\nAs an authorized party I {{ signer }} wish to have the unstaked tokens of {{ ownerVar }} returned.\n"
+      "ricardian_contract": "# Action - `{{ refund }}`\n\n### Description\n\nThe intent of the `{{ refund }}` action is to return previously unstaked tokens to an account after the unstaking period has elapsed. \n\nAs an authorized party I {{ signer }} wish to have the unstaked tokens of {{ owner }} returned.\n"
     },
     {
       "name": "regproducer",
@@ -995,67 +995,67 @@
     {
       "name": "setram",
       "type": "setram",
-      "ricardian_contract": "# Action - `{{ setram }}`\n\n### Description\n\nThis action sets the total RAM that may be allocated for use by accounts. It may only increase.\n\nOnly the controller of this contract may update the RAM availablity. If the owner is a multi-sig collective, the\nparties to the multi-sig each certify that off-the-shelf machines exist capable of supporting the available RAM.\n"
+      "ricardian_contract": ""
     },
     {
       "name": "bidname",
       "type": "bidname",
-      "ricardian_contract": "# Action - `{{ bidname }}`\n\n### Description\n\nThe `{{ bidname }}` action places a bid on a premium account name, in the knowledge that the high bid will purchase the name.\n\n### Inputs and Input Types\n\nThe `{{ bidname }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ bidname }}` | `{{ bidderVar }}`<br/>`{{ newnameVar }}`<br/>`{{ bidVar }}` | `{{ account_name }}`<br/>`{{ account_name }}`<br/>`{{ asset }}` |\n\nAs an authorized party I {{ signer }} wish to bid on behalf of {{ bidderVar }} the amount of {{ bidVar }} toward purchase of the account name {{ newnameVar }}.\n"
+      "ricardian_contract": "# Action - `{{ bidname }}`\n\n## Description\n\nThe `{{ bidname }}` action places a bid on a premium account name, in the knowledge that the high bid will purchase the name.\n\nAs an authorized party I {{ signer }} wish to bid on behalf of {{ bidder }} the amount of {{ bid }} toward purchase of the account name {{ newname }}.\n"
     },
     {
       "name": "unregprod",
       "type": "unregprod",
-      "ricardian_contract": "# Action - `{{ unregprod }}`\n\n### Description\n\nThe `{{ unregprod }}` action unregisters a previously registered block producer candidate.\n\n### Input and Input Type\n\nThe `{{ unregprod }}` action requires the following `input` and `input type`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ unregprod }}` | `{{ producerVar }}` | `{{ account_name }}` |\n\nAs an authorized party I {{ signer }} wish to unregister the block producer candidate {{ producerVar }}, rendering that candidate no longer able to receive votes.\n"
+      "ricardian_contract": "# Action - `{{ unregprod }}`\n\n## Description\n\nThe `{{ unregprod }}` action unregisters a previously registered block producer candidate.\n\nAs an authorized party I {{ signer }} wish to unregister the block producer candidate {{ producer }}, rendering that candidate no longer able to receive votes.\n"
     },
     {
       "name": "regproxy",
       "type": "regproxy",
-      "ricardian_contract": "# Action - `{{ regproxy }}`\n\n### Description\n\nThe `{{ regproxy }}` action... \n\n### Inputs and Input Types\n\nThe `{{ regproxy }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ regproxy }}` | `{{ proxyVar }}`<br/>`{{ isproxyVar }}` | `{{ account_name }}`<br/>`{{ bool }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "voteproducer",
       "type": "voteproducer",
-      "ricardian_contract": "# Ricardian Contract for *voteproducer*\n\nThis Ricardian contract for the system command *voteproducer* is legally binding and can be used in the event of a dispute.\n\n\n## VOTEPRODUCER (voter; array:producers)\n\n_Intent: cast a valid vote for up to 30 BP candidates_\n\nAs an authorized party I {{ signer }} wish to vote on behalf of {{ voter }} in favor of the block producer candidates {{ array:producers }} with a voting weight equal to all tokens currently owned by {{ voter }} and staked for CPU or bandwidth. \n\nIf I am not the beneficial owner of these shares I stipulate I have proof that I\u2019ve been authorized to vote these shares by their beneficial owner(s). \n\nI stipulate I have not and will not accept anything of value in exchange for these votes, on penalty of confiscation of these tokens, and other penalties. \n\nI acknowledge that using any system of automatic voting, re-voting, or vote refreshing, or allowing such a system to be used on my behalf or on behalf of another, is forbidden and doing so violates this contract.\n\nAll disputes arising from this contract shall be resolved in the EOS Core Arbitration Forum. \n"
+      "ricardian_contract": "# Ricardian Contract for *voteproducer*\n\n## VOTEPRODUCER (voter; array:producers)\n\n_Intent: cast a valid vote for up to 30 BP candidates_\n\nAs an authorized party I {{ signer }} wish to vote on behalf of {{ voter }} in favor of the block producer candidates {{ array:producers }} with a voting weight equal to all tokens currently owned by {{ voter }} and staked for CPU or bandwidth. \n\nIf I am not the beneficial owner of these shares I stipulate I have proof that I\u2019ve been authorized to vote these shares by their beneficial owner(s). \n\nI stipulate I have not and will not accept anything of value in exchange for these votes, on penalty of confiscation of these tokens, and other penalties. \n\nI acknowledge that using any system of automatic voting, re-voting, or vote refreshing, or allowing such a system to be used on my behalf or on behalf of another, is forbidden and doing so violates this contract.\n"
     },
     {
       "name": "claimrewards",
       "type": "claimrewards",
-      "ricardian_contract": "# Action - `{{ claimrewards }}`\n\n### Description\n\nThe `{{ claimrewards }}` action allows a block producer (active or standby) to claim the system rewards due them for producing blocks and receiving votes.\n\n### Input and Input Type\n\nThe `{{ claimrewards }}` action requires the following `input` and `input type`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ claimrewards }}` | `{{ ownerVar }}` | `{{ account_name }}` |\n\nAs an authorized party I {{ signer }} wish to have the rewards earned by {{ ownerVar }} deposited into their (my)  account.\n"
+      "ricardian_contract": "# Action - `{{ claimrewards }}`\n\n## Description\n\nThe `{{ claimrewards }}` action allows a block producer (active or standby) to claim the system rewards due them for producing blocks and receiving votes.\n\nAs an authorized party I {{ signer }} wish to have the rewards earned by {{ owner }} deposited into the {{ owner }} account.\n"
     },
     {
       "name": "setpriv",
       "type": "setpriv",
-      "ricardian_contract": "# Action - `{{ setpriv }}`\n\n### Description\n\nThe intention of the `{{ setpriv }}` action is to ...\n\n### Inputs and Input Types\n\nThe `{{ setpriv }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ setpriv }}` | `{{ accountVar }}`<br/>`{{ is_privVar }}` | `{{ account_name }}`<br/>`{{ int8 }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "rmvproducer",
       "type": "rmvproducer",
-      "ricardian_contract": "# Action - `{{ rmvproducer }}`\n\n### Description\n\nThis action will remove a producer from the schedule. Should be called by other scheduled producers only sparingly and for the purpose of maintaining chain integrity and network stability. \n\nProducers who call this without appropriate justification, such as a mutually agreed SLA or other objective criteria, can be liable for lost revenue and lost reputation suffered by the target of this call.\n"
+      "ricardian_contract": ""
     },
     {
       "name": "setalimits",
       "type": "set_account_limits",
-      "ricardian_contract": "# Action - `{{ setalimits }}`\n\n### Description\n\nThe `{{ setalimits }}` action... \n\n### Inputs and Input Types\n\nThe `{{ setalimits }}` action requires the following `inputs` and `input types`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ setalimits }}` | `{{ accountVar }}`<br/>`{{ ram_bytesVar }}`<br/>`{{ net_weightVar }}`<br/>`{{ cpu_weightVar }}` | `{{ account_name }}`<br/>`{{ int64 }}`<br/>`{{ int64 }}`<br/>`{{ int64 }}` |\n\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "setglimits",
       "type": "set_global_limits",
-      "ricardian_contract": "# Action - `{{ setglimits }}`\n\n### Description\n\nThe intention of the `{{ setglimits }}` action is to ... \n\n### Input and Input Type\n\nThe `{{ setglimits }}` action requires the following `input` and `input type`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ setglimits }}` | `{{ cpu_usec_per_periodVar }}` | `{{ int64 }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "setprods",
       "type": "set_producers",
-      "ricardian_contract": "# Action - `{{ setprods }}`\n\n### Description\n\nThe `{{ setprods }}` action creates a new schedule of active producers, who will produce blocks in the order given.\n\n### Input and Input Type\n\nThe `{{ setprods }}` action requires the following `input` and `input type`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ setprods }}` | `{{ scheduleVar }}` | `{{ producer_key[] }}` |\n\nTHIS IS A SYSTEM COMMAND NOT AVAILABLE FOR DIRECT ACCESS BY USERS.\n\n\nAs an authorized party I {{ signer }} wish to set the rotation of producers to be {{ scheduleVar }}.\n"
+      "ricardian_contract": "# Action - `{{ setprods }}`\n\n## Description\n\nThe `{{ setprods }}` action creates a new schedule of active producers, who will produce blocks in the order given.\n\nTHIS IS A SYSTEM COMMAND NOT AVAILABLE FOR DIRECT ACCESS BY USERS.\n\nAs an authorized party I {{ signer }} wish to set the rotation of producers to be {{ schedule }}.\n"
     },
     {
       "name": "reqauth",
       "type": "require_auth",
-      "ricardian_contract": "# Action - `{{ reqauth }}`\n\n### Description\n\nThe `{{ reqauth }}` action... \n\n### Input and Input Type\n\nThe `{{ reqauth }}` action requires the following `input` and `input type`:\n\n| Action | Input | Input Type |\n|:--|:--|:--|\n| `{{ reqauth }}` | `{{ fromVar }}` | `{{ account_name }}` |\n\nAs an authorized party I {{ signer }} wish to UNKNOWN\n"
+      "ricardian_contract": ""
     },
     {
       "name": "setparams",
       "type": "setparams",
-      "ricardian_contract": "# Action - `{{ setparams }}`\n\n### Description\n\nThis action will set system parameters.\n"
+      "ricardian_contract": ""
     }
   ],
   "tables": [
