@@ -1,0 +1,2 @@
+added QmdiEnPy2ZprjGe3vfxikg9fNaJR77bbMcVMBwWh64ajCm eosio.system.abi
+added QmTgfMfMw2zQgtkeSu7iJfaVcWbmU8werBjYuf6iVseFXL eosio.token.abi
