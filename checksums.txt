@@ -1,2 +1,2 @@
-b15749b745ccbbce4a2ef9e6139c84cad131ddd2582713b1f545b7b489e8f394  ./eosio.system/eosio.system.abi
+627a2d910594ff3226a25de50edc92a587d5756191880c7990c3a8e388fc1635  ./eosio.system/eosio.system.abi
 804533704bfa098d2399808a806cb37cc4256da3ce9b0d9a777b3ab21c4fe778  ./eosio.token/eosio.token.abi
