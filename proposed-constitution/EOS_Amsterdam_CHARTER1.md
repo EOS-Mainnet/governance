@@ -100,7 +100,7 @@ The proxy shall have to prove it complies with this paragraph if asked. The prox
 
 1.
   1.
-8.1.Unless parties agree otherwise, developers17 are not liable for losses and damages unless those result from their intent or gross negligence.
+8.1.Unless parties agree otherwise, developers17 are not liable for losses and damages for the code they provide, unless those result from their intent or gross negligence.
 
 1. **9.**** WPS**
 
@@ -138,21 +138,22 @@ unless otherwise stipulated in this charter or unless the occurrence of force ma
 
 1.
   1.
-12.2.In the event no forum has been agreed by the parties, all disputes arising in connection with this charter and/or EOS, or in connection with further agreements resulting therefrom, shall be settled in accordance with the arbitration rules of the selected arbitration provider or providers21.
+12.2.In the event no forum has been agreed by the parties, all disputes arising in connection with this charter and/or EOS, or in connection with further agreements resulting therefrom, shall be settled in accordance with the arbitration rules of the selected arbitration provider21. In the event more arbitration providers are selected, the competent selected arbitration provider shall be determined in accordance with the arbitration system implemented by the block producers meeting.
 
-  2. 3.The block producers meeting shall implement an arbitration system that allows for the participation of one or more arbitration providers based on their registration with EOS and further on quality and procedural requirements detailed in article 11.4 and 11.5. The arbitration providers that are selected through this system are in this charter referred to as &quot;selected arbitration provider(s)&quot;.
+  2.
+12.3.The block producers meeting shall determine an arbitration system allows for the participation of one or more arbitration providers based on their registration with EOS and further on quality and procedural requirements detailed in article 12.4 and 12.5. The arbitration providers that are selected through this system are as of the day the block producers meeting decides and publishes such decision the &quot;selected arbitration provider(s)&quot; this charter refers to. The arbitration system, including eventual block producers meeting&#39;s amendments to it, shall be part of this charter22.
 
   3. 4.A selected arbitration provider can only be removed without its consent if
     1. 4.1.it stops meeting these requirements and/or additional requirements (if any) set by the block producers meeting and if a competent court or an arbitrator rules that such arbitration provider should be removed; or
     2. 4.2.by a unanimous decision of the block producers meeting.
 
   4.
-12.5.The arbitrator or arbitrators shall make an award in all fairness without being bound to the strict rules of law22. The arbitration system implement due proceedings. The arbitration system shall at least:
+12.5.The arbitrator or arbitrators shall make an award in all fairness without being bound to the strict rules of law23. The arbitration system implement due proceedings. The arbitration system shall at least:
 
     1. 5.1.ensure strict independence of the arbitrator(s);
     2. 5.2.ensure that there are sufficient arbitrators that shall have the necessary skills and are trained to understand EOS and the principles of due process and the arbitrator&#39;s role;
     3.
-12.5.3.charge fees that are reasonable taken into account the merits of the cases concerned23;
+12.5.3.charge fees that are reasonable taken into account the merits of the cases concerned24;
     4. 5.4.allow for the parties to challenge the person of an arbitrator if they believe such person is not independent;
     5. 5.5.provide reasonable periods to detail claims and defenses and further documentation;
     6. 5.6.allow for a hearing through electronic means or, in the event both parties shall wish so: for one where both parties are physically present;
@@ -160,14 +161,14 @@ unless otherwise stipulated in this charter or unless the occurrence of force ma
     8. 5.8.provide the reasoning behind the award;
     9. 5.9.allow the parties to choose the language provided such choice is limited to the major languages;
     10.
-12.5.10.allow for appeal24;
+12.5.10.allow for appeal25;
     11. 5.11.allow for preliminary measures.
 
   5.
-12.6.An arbitrational system may introduce mandatory mediation for eligible cases25.
+12.6.An arbitrational system may introduce mandatory mediation for eligible cases26.
 
 1.
-**13.**** Block producers meeting ****26**
+**13.**** Block producers meeting ****27**
 
 1.
   1. 1.There is a block producers meeting. The block producers meeting consist of all block producers that receive EOS for their work at 13:00 o&#39;clock UTC at the date of the meeting. Which of such block producers shall be considered active block producers is established at the same moment.
@@ -202,18 +203,21 @@ unless otherwise stipulated in this charter or unless the occurrence of force ma
 
 1.
   1.
-15.1.The block producers meeting is entitled to provide further rules and protocols, including the block producers agreement27. The block producers meeting is entitled to establish the code. Both provided such rules, protocols and code will be fully in accordance with this charter28
+15.1.The block producers meeting is entitled to provide further rules and protocols, including the block producers agreement28. The block producers meeting is entitled to establish the code. Both provided such rules, protocols and code will be fully in accordance with this charter29
 
 1.
-**16.**** Applicable law ****29**
+**16.**** Applicable law ****30**
 
 1.
-  1.
-16.1.This charter is governed by _Dutch__30_ law.
+  1. 1.This charter supersedes all national laws.
 
-  2. 2.The governing law doesn&#39;t prevent parties to an agreement regarding EOS to  let that agreement be governed by any other law
-.
-2. **17.**** Transition article**
+  2. 2.Should a law have mandatory provisions that hinder the execution of this charter, the parties shall, if and to the extent possible;
+    1. 2.1.Choose a law that doesn&#39;t do so, or, to the extent that isn&#39;t possible
+    2. 2.2.Amend this charter in a way that comes closest to its meaning within such mandatory provisions;
+
+notwithstanding the arbitrator&#39;s assignment to rule in all fairness without being bound to the strict rules of law.
+
+1. **17.**** Transition article**
 
   1. 1.This charter replaces the interim constitution as of the date it is being elected by the community unless the referendum system details otherwise.
 
@@ -355,7 +359,7 @@ So the principle is that the parties themselves choose their dispute resolution.
 21
 
 #
-Such system of selected arbitrators to be drafted and established in accordance with the following paragraph.
+Such system of selected block producers to be drafted and established in accordance with the following paragraph.
 **Arbitration**
 ECAF is there now. When this charter is in force, the block producers meeting shall have to formally appoint ECAF should they want them to be (one of the) arbitration providers. I have introduced language that allows for ECAF to continue untill the block producers meeting has provided another selected arbitration provider.
 
@@ -364,44 +368,44 @@ It will be possible to have various providers for various problems. E.g. Wipo ar
 22
 
 #
-An arbitrator can rule in accordance with the law or in fairness. This is EOS. We don&#39;t want legal small print that complicate so many court cases. That&#39;s why we choose for fairness..
+This means that if a party is obliged to ensure that this charter is applicable, it should also ensure that the arbitration system is applicable too. Typically this is done by adding reference to that system in the Ricardian Contract of in the other contract.
 
 23
 
 #
-One may have cheap and simple proceedings for simple cases (e.g. theft) and extensive (and therefore expensive) proceedings for complicated cases (e.g. the question whether or not block producers voted in an orchestrated way).
+An arbitrator can rule in accordance with the law or in fairness. This is EOS. We don&#39;t want legal small print that complicate so many court cases. That&#39;s why we choose for fairness..
 
 24
 
 #
-Appeal is essential in an emerging legal system. It is needed to align the various verdicts and work towards clear and predictable rules.
+One may have cheap and simple proceedings for simple cases (e.g. theft) and extensive (and therefore expensive) proceedings for complicated cases (e.g. the question whether or not block producers voted in an orchestrated way).
 
 25
 
 #
-We believe mediation often provides quick and cheap dispute resolution;
+Appeal is essential in an emerging legal system. It is needed to align the various verdicts and work towards clear and predictable rules.
 
 26
 
 #
-There need to be a body that is entitled to decide on code and that further details the rules if and when necessary. Without this body all extra rules are legally amendments to the charter (as such extra rules would in fact be an amendment to all other contracts or constitutions). Such amendments would than all need a referendum since the contract is changed. That is highly impractical. Determining a &quot; lower&quot; body to further establish the community rules is called &quot;delegation&quot;.
+We believe mediation often provides quick and cheap dispute resolution;
 
 27
 
 #
-In the event the BPs shall draft an agreement that is too good for them, they risk to be voted out.
+There need to be a body that is entitled to decide on code and that further details the rules if and when necessary. Without this body all extra rules are legally amendments to the charter (as such extra rules would in fact be an amendment to all other contracts or constitutions). Such amendments would than all need a referendum since the contract is changed. That is highly impractical. Determining a &quot; lower&quot; body to further establish the community rules is called &quot;delegation&quot;.
 
 28
 
 #
-As for the Sudo discussion: (if we are correctly informed), Sudo provides a way of exercising BPs powers that BPs already have but do it in a more streamlined manner. Such a system wouldn&#39;t be against this charter.
+In the event the BPs shall draft an agreement that is too good for them, they risk to be voted out.
 
 29
 
 #
-We have discussed this intently. We understand that choosing an applicable law is contrary to the decentralization idea. However we don&#39;t have much choice. We cannot make a new order of rules. There will always be a law applicable. Law doesn&#39;t care about how international a system is. Law is being applied whether one likes it or not. One has only the freedom to choose his or hers applicable law (a freedom that isn&#39;t absolute by the way). If the parties do not choose their applicable law, such law will be determined by the conflict law system. Any gaps in the agreement are being filled in (or not) by the applicable law. So if one doesn&#39;t choose one applicable law, this might mean that this charter does not do what it is supposed to do because another jurisdiction may require specific texts that are not in here.. The impact of the applicable law shouldn&#39;t be overstated. It just depends. Especially if the language of an agreement is unambiguous, such texts are probably be leading in many law systems and the result would be similar regardless of the applicable law.
+As for the Sudo discussion: (if we are correctly informed), Sudo provides a way of exercising BPs powers that BPs already have but do it in a more streamlined manner. Such a system wouldn&#39;t be against this charter.
 
 30
 
 #
-Any civil law system is in principle fine with us. However this charter is drawn up in accordance with Dutch law and we have a strong preference for that. Should we select e.g. Swiss law a Swiss lawyer will need to check this charter as well. Common law (used in India, the US and the UK) is, based on our rather sketchy knowledge, probably more problematic. We are regrettably not familiar with Chinese and the other Asian law systems. We look forward to any comments from that part of the world.
+ There is no applicable law stipulated here. That means that this charter should be interpreted literally in as far is possible under the applicable law found by applying applicable conflict of law. In the event of mandatory provisions that run contrary to this charter, the parties should try and circumvent those.That will not be easy.  This means that it is hard to predict if this charter shall function in all jurisdictions as it is meant to. This lead to uncertainty. To avoid such uncertainty, generally speaking, it is better to choose an applicable law system aforehand. We understand however that the community believes, understandably,  that a choice of law would lead to too much centralization and to unfair advantages for some.
