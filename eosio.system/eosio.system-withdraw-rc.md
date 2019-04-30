@@ -1,7 +1,7 @@
-# Action - `{{ withdraw }}`
+# Action - `withdraw`
 
 ## Description
 
-The `{{ withdraw }}` action allows an account to withdraw from REX fund by transfering to the liquid token balance.
+The `withdraw` action allows an account to withdraw EOS tokens from their REX fund into their liquid token balance.
 
-As an authorized party I {{ signer }} wish to withdraw {{ amount }} from REX fund into the liquid balance of the account {{ owner }}.
+As an authorized party I, {{ signer }}, wish to withdraw {{ amount }} of EOS tokens from the REX fund for the account {{ owner }} into its liquid token balance.
