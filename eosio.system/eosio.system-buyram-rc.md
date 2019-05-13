@@ -1,16 +1,21 @@
-# Action - `{{ buyram }}`
+---
+title: Buy RAM
+summary: Account {{ payer }} will purchase RAM for account {{ receiver }} using {{ quant }} EOS as payment.
+icon: NEED TO ADD
+---
 
-### Description
+This action will purchase RAM for account {{ receiver }} by using {{ quant }} EOS from account {{ payer }}.
 
-This action will attempt to reserve about {{quant}} worth of RAM on behalf of {{receiver}}. 
+The purchase amount of {{ quant }} EOS will have 0.5% removed as a fee, to be sent to the account `eosio.ramfee`.
 
-{{buyer}} authorizes this contract to transfer {{quant}} to buy RAM based upon the current price as determined by the market maker algorithm.
+The remaining portion of the purchase amount will be sent to the account `eosio.ram`.
 
-{{buyer}} accepts that a 0.5% fee will be charged on the amount spent and that the actual RAM received may be slightly less than expected due to the approximations necessary to enable this service.
-{{buyer}} accepts that a 0.5% fee will be charged if and when they sell the RAM received.
-{{buyer}} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.
-{{buyer}} acknowledges that the supply of RAM may be increased at any time up to the limits of off-the-shelf computer equipment and that this may result in RAM selling for less than purchase price.
-{{buyer}} acknowledges that the price of RAM may increase or decrease over time according to supply and demand.
-{{buyer}} acknowledges that RAM is non-transferrable. 
-{{buyer}} acknowledges RAM currently in use by their account cannot be sold until it is freed and that freeing RAM may be subject to terms of other contracts.
+Only the account {{ receiver }} will be able to authorize a sale of this RAM in the future, and that it is completely non-transferable.
 
+The price of RAM is determined by the RAM market, and I, {{ payer }}, acknowledge that this price can fluctuate between time of purchase and time of sale.
+
+{{ payer }} accepts that the quantity of RAM available in the network can be modified by the network's Block Producers.
+
+{{ receiver }} will be unable to sell any utilized RAM until any information stored in that RAM has been freed. Ths process of freeing RAM will be subject to the terms of the other smart contracts with which {{ receiver }} will interact.
+
+{{ receiver }} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.
