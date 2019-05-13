@@ -1,7 +1,11 @@
-# Action - `{{ bidname }}`
+---
+title: Bidname
+summary: Place a bid of {{ bid }} EOS by account {{ bidder }} on the account name {{ newname }}
+icon: NEED TO ADD
+---
 
-## Description
+As an authorized party I, {{ bidder }}, wish to bid the amount of {{ bid }} toward purchase of the account name {{ newname }}.
 
-The `{{ bidname }}` action places a bid on a premium account name, in the knowledge that the high bid will purchase the name.
+I am aware that I cannot revoke my bid of {{ bid }} EOS. I will only receive it back if I am outbid by at least 10% by another user. 
 
-As an authorized party I {{ signer }} wish to bid on behalf of {{ bidder }} the amount of {{ bid }} toward purchase of the account name {{ newname }}.
+My bid of {{ bid }} EOS for the account name {{ newname }} will only be awarded if it holds the highest bid for any new account name, for a period of consecutive 24 hours.
