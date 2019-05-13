@@ -1,7 +1,7 @@
-# Action - `{{ canceldelay }}`
+---
+title: Cancel Delay
+summary: Cancel a pending deferred transaction with ID {{ trx_id }}.
+icon: NEED TO ADD
+---
 
-### Description
-
-The `{{ canceldelay }}` action cancels an existing delayed transaction.
-
-As an authorized party I {{ signer }} wish to invoke the authority of {{ canceling_auth }} to cancel the transaction with ID {{ trx_id }}.
+As an authorized party I, {{ signer }}, wish to invoke the authority of {{ canceling_auth }} to cancel the transaction with ID {{ trx_id }}.
