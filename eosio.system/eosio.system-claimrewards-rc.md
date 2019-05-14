@@ -1,7 +1,9 @@
-# Action - `{{ claimrewards }}`
+---
+title: Claim Rewards
+summary: Claim Block Rewards and Vote Rewards due to Block Producer {{ owner }}. 
+icon: NEED TO ADD
+---
 
-## Description
+As an authorized party I, {{ signer }}, wish to have the rewards earned by {{ owner }} deposited into the account {{ owner }}.
 
-The `{{ claimrewards }}` action allows a block producer (active or standby) to claim the system rewards due them for producing blocks and receiving votes.
-
-As an authorized party I {{ signer }} wish to have the rewards earned by {{ owner }} deposited into the {{ owner }} account.
+By calling the `claimrewards` action, I, {{ owner }} agree to abide by any and all rules described in the Constitution, or any other governing documents, that are in effect at this time.
