@@ -1,6 +1,8 @@
-# Action - `cnclrexorder`
-
-## Description
+---
+title: Cancel REX Order
+summary: Cancel any queued REX sell orders for account {{ owner }}
+icon: NEED TO ADD
+---
 
 The `cnclrexorder` action cancels a queued REX sell order if one exists for an account.
 
