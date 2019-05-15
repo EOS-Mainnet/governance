@@ -1,6 +1,8 @@
-# Action - `defcpuloan`
-
-## Description
+---
+title: Defund CPU Loan
+summary: Remove {{ amount }} EOS tokens previously set by {{ from }} to renew CPU loan {{ loan_num }}
+icon: NEED TO ADD
+---
 
 The `defcpuloan` action allows an account to withdraw tokens from the fund of a specific CPU loan and adds them to REX fund.
 
