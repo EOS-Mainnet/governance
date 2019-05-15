@@ -1,6 +1,8 @@
-# Action - `closerex`
-
-## Description
+---
+title: Close Rex
+summary: Free up any REX-related database entries in RAM from the account {{ owner }} 
+icon: NEED TO ADD
+---
 
 The `closerex` action allows an account to delete unused REX-related database entries and frees occupied RAM associated with its storage.
 
