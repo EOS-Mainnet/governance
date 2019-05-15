@@ -1,6 +1,8 @@
-# Action - `mvtosavings`
-
-## Description
+---
+title: Move REX to savings
+summary: Move {{ rex }} REX tokens into the savings bucket of account {{ owner }}.
+icon: NEED TO ADD
+---
 
 The `mvtosavings` action allows an account to move REX tokens into a savings bucket.
 
