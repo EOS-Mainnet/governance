@@ -1,6 +1,6 @@
 ---
 title: Create New Account
-summary: Account {{ creator }} creates the account {{ name }}
+summary: Account {{ creator }} creates the account {{ name }}.
 icon: NEED TO ADD
 ---
 
