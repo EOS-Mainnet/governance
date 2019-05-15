@@ -1,6 +1,6 @@
 ---
 title: Fund CPU Loan
-summary: Assign {{ payment }} EOS tokens for the renewal of loan {{ loan_num }} upon expiry.
+summary: Assign {{ payment }} EOS tokens for the renewal of CPU loan {{ loan_num }} upon expiry.
 icon: NEED TO ADD
 ---
 
