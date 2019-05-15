@@ -1,6 +1,8 @@
-# Action - `mvfrsavings`
-
-## Description
+---
+title: Move REX From Savings
+summary: Commence maturing {{ rex }} REX tokens from the savings bucket of account {{ owner }}.
+icon: NEED TO ADD
+---
 
 The `mvfrsavings` action allows an account to move REX tokens from its savings bucket to a bucket with a maturity date that is 4 days after 00:00 UTC.
 
