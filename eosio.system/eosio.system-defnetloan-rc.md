@@ -1,6 +1,8 @@
-# Action - `defnetloan`
-
-## Description
+---
+title: Defund Network Loan
+summary: Remove {{ amount }} EOS tokens previously set by {{ from }} to renew Network loan {{ loan_num }}
+icon: NEED TO ADD
+---
 
 The `defnetloan` action allows an account to withdraw tokens from the fund of a specific Network loan and adds them to REX fund.
 
