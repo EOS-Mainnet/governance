@@ -1,15 +1,11 @@
-# Action - `{{ delegatebw }}`
+---
+title: Delegate Bandwidth
+summary: {{ from }} stakes EOS tokens for the account {{ receiver }}, {{ stake_net_quantity }} for Network and {{ stake_cpu_quantity }} for CPU
+icon: NEED TO ADD
+---
 
-## Description
+As an authorized party I, {{ signer }}, wish to stake {{ stake_net_quantity }} EOS for Network and {{ stake_cpu_quantity }} EOS for CPU from the liquid tokens of {{ from }} for the use of {{ receiver }}.
 
-The intent of the `{{ delegatebw }}` action is to stake tokens for bandwidth and/or CPU and optionally transfer ownership.
+By including the `--transfer` flag, {{ from }} would like to permanently transfer the tokens to {{ receiver }} and not just temporarily delegate their resources.
 
-As an authorized party I {{ signer }} wish to stake {{ stake_cpu_quantity }} for CPU and {{ stake_net_quantity }} for bandwidth from the liquid tokens of {{ from }} for the use of delegatee {{ to }}. 
-  
-    {{if transfer }}
-    
-It is {{ transfer }} that I wish these tokens to become immediately owned by the delegatee.
- 
-    {{/if}}
-
-As signer I stipulate that, if I am not the beneficial owner of these tokens, I have proof that I’ve been authorized to take this action by their beneficial owner(s). 
+I understand that should I wish to unstake these tokens and relinquish the claim on resources that I shall be restricted by the wait period as described in `undelegatebw`.
