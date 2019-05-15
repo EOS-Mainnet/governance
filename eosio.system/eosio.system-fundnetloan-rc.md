@@ -1,6 +1,8 @@
-# Action - `fundnetloan`
-
-## Description
+---
+title: Fund Network Loan
+summary: Assign {{ payment }} EOS tokens for the renewal of Network loan {{ loan_num }} upon expiry.
+icon: NEED TO ADD
+---
 
 The `fundnetloan` action allows an account to transfer tokens from its REX fund to the fund of a specific Network loan in order for those tokens to be used for loan renewal at the loan's expiry.
 
