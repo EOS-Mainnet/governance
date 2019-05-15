@@ -1,6 +1,8 @@
- # Action - `consolidate`
- 
- ## Description
+---
+title: Consolidate Maturity Buckets
+summary: Consolidate any open maturity buckets for account {{ owner }}
+icon: NEED TO ADD
+---
  
 The `consolidate` action will consolidate all REX maturity buckets for an account into one that matures 4 days from 00:00 UTC.
  
