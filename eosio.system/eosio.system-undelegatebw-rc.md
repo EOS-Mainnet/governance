@@ -1,9 +1,13 @@
-# Action - `{{ undelegatebw }}`
+---
+title: Undelegate Bandwidth
+summary: Undelegate {{ unstake_cpu_quantity }} CPU and {{ unstake_net_quantity }} Network bandwidth from account {{ receiver }}
+icon: NEED TO ADD
+--- 
 
-## Description
+As an authorized party I, {{ signer }}, wish to unstake {{ unstake_cpu_quantity }} from CPU and {{ unstake_net_quantity }} from Network bandwidth from the tokens owned by {{ from }} previously delegated for the use of delegatee {{ receiver }}. 
 
-The intent of the `{{ undelegatebw }}` action is to unstake tokens from CPU and/or bandwidth. 
+I acknlowedge that I do not expect to have access to these tokens until at least 72 hours have passed since calling the `undelegatebw` action.
 
-As an authorized party I {{ signer }} wish to unstake {{ unstake_cpu_quantity }} from CPU and {{ unstake_net_quantity }} from bandwidth from the tokens owned by {{ from }} previously delegated for the use of delegatee {{ to }}. 
+The CPU and Network bandwidth resources that have been unstaked will be immediately revoked from {{ receiver }}. Any voting weights based on staked resources will become immediately effected. 
 
-If I as signer am not the beneficial owner of these tokens I stipulate I have proof that I’ve been authorized to take this action by their beneficial owner(s). 
+If I, {{ signer }} am not the beneficial owner of these tokens I stipulate I have been authorized to take this action by their beneficial owner(s). 
