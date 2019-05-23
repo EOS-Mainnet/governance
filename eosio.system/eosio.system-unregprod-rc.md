@@ -1,6 +1,6 @@
 ---
 title: Unregister Block Producer
-summary:
+summary: Unregister the Block Producer Canadidate {{ producer }}
 icon: NEED TO ADD
 ---
 
