@@ -1,6 +1,8 @@
-# Action - `updaterex`
-
-## Description
+---
+title: Update REX
+summary: Update the REX voting weight of the account {{ owner }}
+icon: NEED TO ADD
+---
 
 The `updaterex` action allows an account to update its vote weight.
 
