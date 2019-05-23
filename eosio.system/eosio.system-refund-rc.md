@@ -1,7 +1,9 @@
-# Action - `{{ refund }}`
+---
+title: Refund
+summary: Manually trigger a refund after the undelegation period for account {{ owner }}
+icon: NEED TO ADD
+---
 
-### Description
+The `refund` action will manually trigger a return of EOS tokens that should have been automatically allocated from `eosio.stake` to {{ owner }} at the end of the 72-hour undelegation period after calling `undelegatebw`. 
 
-The intent of the `{{ refund }}` action is to return previously unstaked tokens to an account after the unstaking period has elapsed. 
-
-As an authorized party I {{ signer }} wish to have the unstaked tokens of {{ owner }} returned.
+As an authorized party I, {{ signer }}, wish to have the any unstaked tokens due to {{ owner }} returned as liquid EOS tokens into the account {{ owner }}.
