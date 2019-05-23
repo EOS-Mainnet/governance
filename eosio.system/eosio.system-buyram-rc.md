@@ -1,6 +1,7 @@
 ---
+spec_version: 0.1.1
 title: Buy RAM
-summary: Account {{ payer }} will purchase RAM for account {{ receiver }} using {{ quant }} EOS as payment.
+summary: Account {{ payer }} will purchase RAM for account {{ receiver }} using {{ quant }} EOS as payment
 icon: NEED TO ADD
 ---
 
