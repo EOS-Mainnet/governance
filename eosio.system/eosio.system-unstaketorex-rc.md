@@ -1,6 +1,8 @@
-# Action - `unstaketorex`
-
-## Description
+---
+title: Unstake to REX
+summary: Purchase REX tokens using EOS tokens staked to CPU or Network Bandwidth
+icon: NEED TO ADD
+---
 
 The `unstaketorex` action allows an account to buy REX using EOS tokens which are currently staked for either CPU or Network bandwidth.
 
