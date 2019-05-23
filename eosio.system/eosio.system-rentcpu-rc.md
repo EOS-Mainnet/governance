@@ -1,6 +1,8 @@
-# Action - `rentcpu`
-
-## Description
+---
+title: Rent CPU
+summary: Rent CPU for account {{ receiver }} using payment of {{ loan_payment }} EOS tokens
+icon: NEED TO ADD
+---
 
 The `rentcpu` action allows an account to rent CPU bandwidth for 30 days at a market-determined price.
 
