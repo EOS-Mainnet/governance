@@ -1,6 +1,8 @@
-# Action - `rentnet`
-
-## Description
+---
+title: Rent Network
+summary: Rent Network for account {{ receiver }} using payment of {{ loan_payment }} EOS tokens
+icon: NEED TO ADD
+---
 
 The `rentnet` action allows an account to rent Network bandwidth for 30 days at a market-determined price.
 
