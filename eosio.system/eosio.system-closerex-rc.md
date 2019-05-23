@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Close Rex
 summary: Free up any REX-related database entries in RAM from the account {{ owner }} 
 icon: NEED TO ADD
