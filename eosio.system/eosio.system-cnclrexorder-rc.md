@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Cancel REX Order
 summary: Cancel any queued REX sell orders for account {{ owner }}
 icon: NEED TO ADD
