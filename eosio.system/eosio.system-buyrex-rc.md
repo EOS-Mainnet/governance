@@ -1,6 +1,7 @@
 ---
+spec_version: 0.1.1
 title: Buy REX
-summary: Exchange {{ amount }} EOS from the REX fund of {{ from }} account for REX tokens.
+summary: Exchange {{ amount }} EOS from the REX fund of {{ from }} account for REX tokens
 icon: NEED TO ADD
 ---
 
