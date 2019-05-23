@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Bidname
 summary: Place a bid of {{ bid }} EOS by account {{ bidder }} on the account name {{ newname }}
 icon: NEED TO ADD
