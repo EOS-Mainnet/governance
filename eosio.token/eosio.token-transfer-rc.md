@@ -1,11 +1,16 @@
-## Transfer Terms & Conditions
+---
+spec_version: 0.1.1
+title: Transfer
+summary: Transfer {{ quantity }} EOS tokens from {{ from }} to {{ to }}
+icon: NEED TO ADD
+---
 
-I, {{from}}, certify the following to be true to the best of my knowledge:
+The `transfer` action transfers core EOS tokens between two accounts.
 
-1. I certify that {{quantity}} is not the proceeds of fraudulent or violent activities.
-2. I certify that, to the best of my knowledge, {{to}} is not supporting initiation of violence against others.
-3. I have disclosed any contractual terms & conditions with respect to {{quantity}} to {{to}}.
+As an authorized party I, {{ signer }}, wish to transfer {{ quantity }} EOS tokens from {{ from }} to {{ to }} with the memo {{ memo }}.
 
-I understand that funds transfers are not reversible after the {{transaction.delay}} seconds or other delay as configured by {{from}}'s permissions.
+If I am not the beneficial owner of these tokens, I stipulate that I have been authorized to transfer ownership of these tokens by their beneficial owner(s).
 
-If this action fails to be irreversibly confirmed after receiving goods or services from '{{to}}', I agree to either return the goods or services or resend {{quantity}} in a timely manner.
+I understand that transfers are irreversible after any pre-configured delays have elapsed. 
+
+If this action fails to be irreversibly confirmed after receiving goods or services from {{ to }}, I agree to either return the goods or services or resend {{ quantity }} in a timely manner.
