@@ -1,6 +1,8 @@
-# Action - `rexexec`
-
-## Description
+---
+title: Execute REX Maintenance
+summary: Execute up to {{ max }} REX maintenance actions that may be pending.
+icon: NEED TO ADD
+---
 
 The `rexexec` action allows any account to perform REX maintenance by processing expired loans and unfilled sell orders.
 
