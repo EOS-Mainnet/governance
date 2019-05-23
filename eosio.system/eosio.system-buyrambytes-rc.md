@@ -1,6 +1,7 @@
 ---
+spec_version: 0.1.1
 title: Buy RAM Bytes
-summary: Account {{ payer }} will purchase {{ bytes }} bytes of RAM for account {{ receiver }}.
+summary: Account {{ payer }} will purchase {{ bytes }} bytes of RAM for account {{ receiver }}
 icon: NEED TO ADD
 ---
 
