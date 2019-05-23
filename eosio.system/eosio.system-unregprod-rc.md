@@ -1,7 +1,9 @@
-# Action - `{{ unregprod }}`
+---
+title: Unregister Block Producer
+summary:
+icon: NEED TO ADD
+---
 
-## Description
+The `unregprod` action unregisters a previously registered Block Producer Candidate.
 
-The `{{ unregprod }}` action unregisters a previously registered block producer candidate.
-
-As an authorized party I {{ signer }} wish to unregister the block producer candidate {{ producer }}, rendering that candidate no longer able to receive votes.
+As an authorized party I, {{ signer }}, wish to unregister the Block Producer Candidate {{ producer }}, rendering that candidate no longer able to receive votes.
