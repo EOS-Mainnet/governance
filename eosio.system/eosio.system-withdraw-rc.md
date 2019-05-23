@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Withdraw
 summary: Withdraw {{ amount }} EOS tokens from the REX fund of {{ owner }}
 icon: NEED TO ADD

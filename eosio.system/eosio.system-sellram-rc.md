@@ -1,6 +1,7 @@
 ---
+spec_version: 0.1.1
 title: Sell RAM
-summary: Sell {{ bytes }} bytes of RAM from account {{ account }}.
+summary: Sell {{ bytes }} bytes of RAM from account {{ account }}
 icon: NEED TO ADD
 ---
 

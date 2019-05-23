@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Fund Network Loan
 summary: Assign {{ payment }} EOS tokens for the renewal of Network loan {{ loan_num }} upon expiry.
 icon: NEED TO ADD

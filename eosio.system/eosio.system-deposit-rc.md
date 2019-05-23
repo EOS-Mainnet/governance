@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Deposit to REX Fund
 summary: Deposit {{ amount }} EOS tokens from the liquid balance of {{ owner }} into their REX Fund.
 icon: NEED TO ADD

@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Rent CPU
 summary: Rent CPU for account {{ receiver }} using payment of {{ loan_payment }} EOS tokens
 icon: NEED TO ADD

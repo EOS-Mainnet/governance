@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Update REX
 summary: Update the REX voting weight of the account {{ owner }}
 icon: NEED TO ADD

@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Sell REX
 summary: Create an order to sell {{ rex }} tokens held by {{ from }}
 icon: NEED TO ADD

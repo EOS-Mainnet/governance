@@ -1,6 +1,7 @@
 ---
+spec_version: 0.1.1
 title: Undelegate Bandwidth
-summary: Undelegate {{ unstake_cpu_quantity }} CPU and {{ unstake_net_quantity }} Network bandwidth from account {{ receiver }}
+summary: Undelegate {{ unstake_cpu_quantity }} CPU and {{ unstake_net_quantity }} Network bandwidth from {{ receiver }}
 icon: NEED TO ADD
 --- 
 

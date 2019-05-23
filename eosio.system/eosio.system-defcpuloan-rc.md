@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Defund CPU Loan
 summary: Remove {{ amount }} EOS tokens previously assigned by {{ from }} to renew CPU loan {{ loan_num }}
 icon: NEED TO ADD

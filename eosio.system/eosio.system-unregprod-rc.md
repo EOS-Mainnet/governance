@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Unregister Block Producer
 summary: Unregister the Block Producer Canadidate {{ producer }}
 icon: NEED TO ADD

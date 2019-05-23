@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Unstake to REX
 summary: Purchase REX tokens using EOS tokens staked to CPU or Network Bandwidth
 icon: NEED TO ADD

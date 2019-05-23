@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Delegate Bandwidth
 summary: {{ from }} stakes EOS tokens for the account {{ receiver }}, {{ stake_net_quantity }} for Network and {{ stake_cpu_quantity }} for CPU
 icon: NEED TO ADD

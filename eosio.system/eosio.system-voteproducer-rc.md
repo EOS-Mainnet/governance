@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Vote Producer
 summary: {{ voter }} casts a vote for their preferred Block Producers
 icon: NEED TO ADD

@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Refund
 summary: Manually trigger a refund after the undelegation period for account {{ owner }}
 icon: NEED TO ADD

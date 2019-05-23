@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Defund Network Loan
 summary: Remove {{ amount }} EOS tokens previously set by {{ from }} to renew Network loan {{ loan_num }}
 icon: NEED TO ADD

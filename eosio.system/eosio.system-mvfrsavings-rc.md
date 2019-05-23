@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Move REX From Savings
 summary: Commence maturing {{ rex }} REX tokens from the savings bucket of account {{ owner }}.
 icon: NEED TO ADD
