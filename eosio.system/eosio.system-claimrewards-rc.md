@@ -1,6 +1,7 @@
 ---
+spec_version: 0.1.1
 title: Claim Rewards
-summary: Claim Block Rewards and Vote Rewards due to Block Producer {{ owner }}. 
+summary: Claim Block Rewards and Vote Rewards due to Block Producer {{ owner }} 
 icon: NEED TO ADD
 ---
 
