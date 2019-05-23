@@ -1,4 +1,5 @@
 ---
+spec_version: 0.1.1
 title: Consolidate Maturity Buckets
 summary: Consolidate any open maturity buckets for account {{ owner }}
 icon: NEED TO ADD
