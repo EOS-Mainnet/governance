@@ -9,9 +9,9 @@ icon: NEED TO ADD
 
 As an authorized party I, {{ bidder }}, wish to bid the amount of {{ bid }} toward purchase of the account name {{ newname }}.
 
-I am aware that I cannot revoke my bid of {{ bid }} EOS. I will only receive it back if I am outbid by at least 10% by another user. 
+I am aware that I cannot revoke my bid of {{ bid }} EOS. I will only receive it back if I am outbid by at least 10% by another account. 
 
-My bid of {{ bid }} EOS for the account name {{ newname }} will only be awarded if it holds the highest bid for any new account name, for a period of consecutive 24 hours.
+My bid of {{ bid }} EOS for the account name {{ newname }} will only be awarded if it holds the highest bid for any new account name, for a period of 24 consecutive hours.
 
 <h1 class="clause">buyram</h1>
 
@@ -34,7 +34,7 @@ The price of RAM is determined by the RAM market, and I, {{ payer }}, acknowledg
 
 {{ payer }} accepts that the quantity of RAM available in the network can be modified by the network's Block Producers.
 
-{{ receiver }} will be unable to sell any utilized RAM until any information stored in that RAM has been freed. Ths process of freeing RAM will be subject to the terms of the other smart contracts with which {{ receiver }} will interact.
+{{ receiver }} will be unable to sell any utilized RAM until any information stored in that RAM has been freed. The process of freeing RAM will be subject to the terms of the other smart contracts with which {{ receiver }} will interact.
 
 {{ receiver }} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.
 
@@ -57,7 +57,7 @@ The price of RAM is determined by the RAM market, and I, {{ payer }}, acknowledg
 
 {{ payer }} accepts that the quantity of RAM available in the network can be modified by the network's Block Producers.
 
-{{ receiver }} will be unable to sell any utilized RAM until any information stored in that RAM has been freed. Ths process of freeing RAM will be subject to the terms of the other smart contracts with which {{ receiver }} will interact.
+{{ receiver }} will be unable to sell any utilized RAM until any information stored in that RAM has been freed. The process of freeing RAM will be subject to the terms of the other smart contracts with which {{ receiver }} will interact.
 
 {{ receiver }} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.
 
