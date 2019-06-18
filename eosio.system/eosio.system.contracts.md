@@ -1,7 +1,7 @@
 <h1 class="clause">bidname</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Bidname
 summary: Place a bid of {{ bid }} EOS by account {{ bidder }} on the account name {{ newname }}
 icon: NEED TO ADD
@@ -16,7 +16,7 @@ My bid of {{ bid }} EOS for the account name {{ newname }} will only be awarded 
 <h1 class="clause">buyram</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Buy RAM
 summary: Account {{ payer }} will purchase RAM for account {{ receiver }} using {{ quant }} EOS as payment
 icon: NEED TO ADD
@@ -41,7 +41,7 @@ The price of RAM is determined by the RAM market, and I, {{ payer }}, acknowledg
 <h1 class="clause">buyrambytes</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Buy RAM Bytes
 summary: Account {{ payer }} will purchase {{ bytes }} bytes of RAM for account {{ receiver }}
 icon: NEED TO ADD
@@ -64,7 +64,7 @@ The price of RAM is determined by the RAM market, and I, {{ payer }}, acknowledg
 <h1 class="clause">buyrex</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Buy REX
 summary: Exchange {{ amount }} EOS from the REX fund of {{ from }} account for REX tokens
 icon: NEED TO ADD
@@ -81,7 +81,7 @@ I am aware that I will need to satify the maturing period before being able to t
 <h1 class="clause">canceldelay</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Cancel Delay
 summary: Cancel a pending deferred transaction with ID {{ trx_id }}
 icon: NEED TO ADD
@@ -92,7 +92,7 @@ As an authorized party I, {{ signer }}, wish to invoke the authority of {{ cance
 <h1 class="clause">claimrewards</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Claim Rewards
 summary: Claim Block Rewards and Vote Rewards due to Block Producer {{ owner }} 
 icon: NEED TO ADD
@@ -105,7 +105,7 @@ By calling the `claimrewards` action, I, {{ owner }} agree to abide by any and a
 <h1 class="clause">eosuseragreement</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: EOS User Agreement
 summary: EOS User Agreement
 icon: NEED TO ADD
@@ -319,7 +319,7 @@ EOS公链上的原生价值单位应为eosio.token智能合约定义和创建的
 <h1 class="clause">closerex</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Close Rex
 summary: Free up any REX-related database entries in RAM from the account {{ owner }} 
 icon: NEED TO ADD
@@ -334,7 +334,7 @@ I will not be able to succesfully call `closerex` unless all checks for CPU loan
 <h1 class="clause">cnclrexorder</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Cancel REX Order
 summary: Cancel any queued REX sell orders for account {{ owner }}
 icon: NEED TO ADD
@@ -347,7 +347,7 @@ As an authorized party I, {{ signer }}, wish to cancel any unfilled and queued R
 <h1 class="clause">consolidate</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Consolidate Maturity Buckets
 summary: Consolidate any open maturity buckets for account {{ owner }}
 icon: NEED TO ADD
@@ -360,7 +360,7 @@ As an authorized party I, {{ signer }}, wish to consolidate any open REX maturit
 <h1 class="clause">defcpuloan</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Defund CPU Loan
 summary: Remove {{ amount }} EOS tokens previously assigned by {{ from }} to renew CPU loan {{ loan_num }}
 icon: NEED TO ADD
@@ -373,7 +373,7 @@ As an authorized party I, {{ signer }}, wish to withdraw from the CPU loan fund 
 <h1 class="clause">defnetloan</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Defund Network Loan
 summary: Remove {{ amount }} EOS tokens previously set by {{ from }} to renew Network loan {{ loan_num }}
 icon: NEED TO ADD
@@ -386,7 +386,7 @@ As an authorized party I, {{ signer }}, wish to withdraw from the Network loan f
 <h1 class="clause">delegatebw</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Delegate Bandwidth
 summary: {{ from }} stakes EOS tokens for the account {{ receiver }}, {{ stake_net_quantity }} for Network and {{ stake_cpu_quantity }} for CPU
 icon: NEED TO ADD
@@ -401,7 +401,7 @@ I understand that should I wish to unstake these tokens and relinquish the claim
 <h1 class="clause">deleteauth</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Delete Authority
 summary: Delete the permission authority {{ permission }} of account {{ account }}
 icon: NEED TO ADD
@@ -414,7 +414,7 @@ I understand that this action, once called, cannot be revoked.
 <h1 class="clause">deposit</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Deposit to REX Fund
 summary: Deposit {{ amount }} EOS tokens from the liquid balance of {{ owner }} into their REX Fund.
 icon: NEED TO ADD
@@ -427,7 +427,7 @@ As an authorized party I, {{ signer }}, wish to deposit {{ amount }} EOS tokens 
 <h1 class="clause">fundcpuloan</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Fund CPU Loan
 summary: Assign {{ payment }} EOS tokens for the renewal of CPU loan {{ loan_num }} upon expiry.
 icon: NEED TO ADD
@@ -440,7 +440,7 @@ As an authorized party I, {{ signer }}, wish to transfer the amount of {{ paymen
 <h1 class="clause">fundnetloan</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Fund Network Loan
 summary: Assign {{ payment }} EOS tokens for the renewal of Network loan {{ loan_num }} upon expiry.
 icon: NEED TO ADD
@@ -453,7 +453,7 @@ As an authorized party I, {{ signer }}, wish to transfer the amount of {{ paymen
 <h1 class="clause">linkauth</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Link Authority
 summary: Link permission authority {{ requirement }} of account {{ account }} to a specific contract's action
 icon: NEED TO ADD
@@ -470,7 +470,7 @@ I acknowledge that I cannot use `linkauth` for the following actions: `updateaut
 <h1 class="clause">mvfrsavings</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Move REX From Savings
 summary: Commence maturing {{ rex }} REX tokens from the savings bucket of account {{ owner }}.
 icon: NEED TO ADD
@@ -483,7 +483,7 @@ As an authorized party I, {{ signer }}, wish to move {{ rex }} tokens from the s
 <h1 class="clause">mvtosavings</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Move REX to savings
 summary: Move {{ rex }} REX tokens into the savings bucket of account {{ owner }}
 icon: NEED TO ADD
@@ -496,7 +496,7 @@ As an authorized party I, {{ signer }}, wish to move {{ rex }} tokens to a savin
 <h1 class="clause">newaccount</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Create New Account
 summary: Account {{ creator }} creates the account {{ name }}
 icon: NEED TO ADD
@@ -515,7 +515,7 @@ Should the account name {{ name }} be fewer than 12 characters and not contain a
 <h1 class="clause">refund</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Refund
 summary: Manually trigger a refund after the undelegation period for account {{ owner }}
 icon: NEED TO ADD
@@ -528,7 +528,7 @@ As an authorized party I, {{ signer }}, wish to have the any unstaked tokens due
 <h1 class="clause">regproducer</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Register Producer
 summary: Register a Block Producer Candidate on the account {{ producer }}
 icon: NEED TO ADD
@@ -724,7 +724,7 @@ I, {{ producer }}, acknowledge that if I continue to call the `regproducer` acti
 <h1 class="clause">regproxy</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Register Proxy
 summary: Register account {{ proxy }} as a proxy
 icon: NEED TO ADD
@@ -737,7 +737,7 @@ As a proxy, the vote weight of all accounts who proxy to {{ proxy }} will be del
 <h1 class="clause">rentcpu</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Rent CPU
 summary: Rent CPU for account {{ receiver }} using payment of {{ loan_payment }} EOS tokens
 icon: NEED TO ADD
@@ -752,7 +752,7 @@ The amount of CPU bandwidth shall be determined by the market at time of loan ex
 <h1 class="clause">rentnet</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Rent Network
 summary: Rent Network for account {{ receiver }} using payment of {{ loan_payment }} EOS tokens
 icon: NEED TO ADD
@@ -767,7 +767,7 @@ The amount of Network bandwidth shall be determined by the market at time of loa
 <h1 class="clause">rexexec</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Execute REX Maintenance
 summary: Execute up to {{ max }} REX maintenance actions that may be pending
 icon: NEED TO ADD
@@ -780,7 +780,7 @@ I, {{ signer }}, wish to process up to {{ max }} of any CPU loans, Network loans
 <h1 class="clause">rmvproducer</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Remove Producer
 summary: Remove {{ producer }} from the list of Block Producer Candidates
 icon: NEED TO ADD
@@ -801,7 +801,7 @@ within `regproducer`, or any other governing documents which may make reference 
 <h1 class="clause">sellram</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Sell RAM
 summary: Sell {{ bytes }} bytes of RAM from account {{ account }}
 icon: NEED TO ADD
@@ -814,7 +814,7 @@ As an authorized party I, {{ signer }}, wish to sell {{ bytes }} of unused RAM f
 <h1 class="clause">sellrex</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Sell REX
 summary: Create an order to sell {{ rex }} tokens held by {{ from }}
 icon: NEED TO ADD
@@ -829,7 +829,7 @@ If there is an open `sellrex` order for the account {{ from }}, then this amount
 <h1 class="clause">setabi</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Set ABI
 summary: Set an ABI file on the account {{ account }}
 icon: NEED TO ADD
@@ -841,7 +841,7 @@ The ABI data will be stored in the RAM of {{ account }}.
 <h1 class="clause">setcode</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Set Code
 summary: Set the contract code for account {{ account }}
 icon: NEED TO ADD
@@ -855,7 +855,7 @@ When calling `setcode`, I shall produce suitable Ricaridan Contracts within the 
 <h1 class="clause">undelegatebw</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Undelegate Bandwidth
 summary: Undelegate {{ unstake_cpu_quantity }} CPU and {{ unstake_net_quantity }} Network bandwidth from {{ receiver }}
 icon: NEED TO ADD
@@ -872,7 +872,7 @@ If I, {{ signer }} am not the beneficial owner of these tokens I stipulate I hav
 <h1 class="clause">unlinkauth</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Unlink Authority
 summary: Unlink authority for {{ code }}::{{ type }} on account {{ account }}
 icon: NEED TO ADD
@@ -884,7 +884,7 @@ This will remove any restrictions that may have previously existed for other aut
 <h1 class="clause">unregprod</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Unregister Block Producer
 summary: Unregister the Block Producer Canadidate {{ producer }}
 icon: NEED TO ADD
@@ -897,7 +897,7 @@ As an authorized party I, {{ signer }}, wish to unregister the Block Producer Ca
 <h1 class="clause">unstaketorex</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Unstake to REX
 summary: Purchase REX tokens using EOS tokens staked to CPU or Network Bandwidth
 icon: NEED TO ADD
@@ -912,7 +912,7 @@ I am aware of, and have fulfilled, all voting requirements needed to participate
 <h1 class="clause">updateauth</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Update Authroity
 summary: Update the authority structure of {{ account }} by adding the permission {{ permission }}
 icon: NEED TO ADD
@@ -927,7 +927,7 @@ a sibling to.
 <h1 class="clause">updaterex</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Update REX
 summary: Update the REX voting weight of the account {{ owner }}
 icon: NEED TO ADD
@@ -940,7 +940,7 @@ As an authorized party I, {{ signer }}, wish to update the REX vote stake and vo
 <h1 class="clause">voteproducer</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Vote Producer
 summary: {{ voter }} casts a vote for their preferred Block Producers
 icon: NEED TO ADD
@@ -959,7 +959,7 @@ I acknowledge that using any system of automatic voting, re-voting, or vote refr
 <h1 class="clause">withdraw</h1>
 
 ---
-spec_version: 0.1.1
+spec_version: 0.2.0
 title: Withdraw
 summary: Withdraw {{ amount }} EOS tokens from the REX fund of {{ owner }}
 icon: NEED TO ADD
