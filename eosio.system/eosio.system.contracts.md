@@ -1,4 +1,4 @@
-<h1 class="clause">bidname</h1>
+<h1 class="contract">bidname</h1>
 
 ---
 spec_version: 0.2.0
@@ -13,7 +13,7 @@ I am aware that I cannot revoke my bid of {{ bid }} EOS. I will only receive it 
 
 My bid of {{ bid }} EOS for the account name {{ newname }} will only be awarded if it holds the highest bid for any new account name, for a period of 24 consecutive hours.
 
-<h1 class="clause">buyram</h1>
+<h1 class="contract">buyram</h1>
 
 ---
 spec_version: 0.2.0
@@ -38,7 +38,7 @@ The price of RAM is determined by the RAM market, and I, {{ payer }}, acknowledg
 
 {{ receiver }} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.
 
-<h1 class="clause">buyrambytes</h1>
+<h1 class="contract">buyrambytes</h1>
 
 ---
 spec_version: 0.2.0
@@ -61,7 +61,7 @@ The price of RAM is determined by the RAM market, and I, {{ payer }}, acknowledg
 
 {{ receiver }} accepts that rounding errors resulting from limits of computational precision may result in less RAM being allocated.
 
-<h1 class="clause">buyrex</h1>
+<h1 class="contract">buyrex</h1>
 
 ---
 spec_version: 0.2.0
@@ -78,7 +78,7 @@ I am aware of, and have fulfilled, all voting requirements needed to participate
 
 I am aware that I will need to satify the maturing period before being able to transfer these REX tokens back into EOS tokens.
 
-<h1 class="clause">canceldelay</h1>
+<h1 class="contract">canceldelay</h1>
 
 ---
 spec_version: 0.2.0
@@ -89,7 +89,7 @@ icon: NEED TO ADD
 
 As an authorized party I, {{ signer }}, wish to invoke the authority of {{ canceling_auth }} to cancel the transaction with ID {{ trx_id }}.
 
-<h1 class="clause">claimrewards</h1>
+<h1 class="contract">claimrewards</h1>
 
 ---
 spec_version: 0.2.0
@@ -102,7 +102,7 @@ As an authorized party I, {{ signer }}, wish to have the rewards earned by {{ ow
 
 By calling the `claimrewards` action, I, {{ owner }} agree to abide by any and all rules described in the Constitution, or any other governing documents, that are in effect at this time.
 
-<h1 class="clause">eosuseragreement</h1>
+<h1 class="clause">EOS User Agreement</h1>
 
 ---
 spec_version: 0.2.0
@@ -110,8 +110,6 @@ title: EOS User Agreement
 summary: EOS User Agreement
 icon: NEED TO ADD
 ---
-
-# EOS User Agreement
 
 ## Definitions
 
@@ -316,7 +314,7 @@ EOS公链上的原生价值单位应为eosio.token智能合约定义和创建的
 
 用户应知悉和同意，在任何适用法律允许的最大范围内，本免责声明适用于与EOS代币风险，使用或无法使用EOS代币有关或导致的任何或所有损害或伤害，也适用于任何司法管辖区内的任何任何行为下的EOS区块链chain_id，包括但不限于违反担保、违反合同或侵权行为（包括疏忽）。eosio.prods以及操作它的个人权限对于任何间接的，偶然的，特殊的，示例性的或后果性的损害，包括利润损失，商誉或数据，不承担任何责任。
 
-<h1 class="clause">closerex</h1>
+<h1 class="contract">closerex</h1>
 
 ---
 spec_version: 0.2.0
@@ -331,7 +329,7 @@ As an authorized party, I {{ signer }}, wish to delete all unused REX-related da
 
 I will not be able to succesfully call `closerex` unless all checks for CPU loans, NET loans or refunds pending refunds are still processing on the account {{ owner }}.
 
-<h1 class="clause">cnclrexorder</h1>
+<h1 class="contract">cnclrexorder</h1>
 
 ---
 spec_version: 0.2.0
@@ -344,7 +342,7 @@ The `cnclrexorder` action cancels a queued REX sell order if one exists for an a
 
 As an authorized party I, {{ signer }}, wish to cancel any unfilled and queued REX sell orders that exist for the account {{ owner }}. 
 
-<h1 class="clause">consolidate</h1>
+<h1 class="contract">consolidate</h1>
 
 ---
 spec_version: 0.2.0
@@ -357,7 +355,7 @@ The `consolidate` action will consolidate all REX maturity buckets for an accoun
  
 As an authorized party I, {{ signer }}, wish to consolidate any open REX maturity buckets for the account {{ owner }} into one that matures 4 days from the following 00:00 UTC.
 
-<h1 class="clause">defcpuloan</h1>
+<h1 class="contract">defcpuloan</h1>
 
 ---
 spec_version: 0.2.0
@@ -370,7 +368,7 @@ The `defcpuloan` action allows an account to withdraw tokens from the fund of a 
 
 As an authorized party I, {{ signer }}, wish to withdraw from the CPU loan fund identified by loan number {{ loan_num }} on the account {{ from }} in the amount of {{ amount }} EOS and have those tokens allocated to the REX fund of {{ from }}.
 
-<h1 class="clause">defnetloan</h1>
+<h1 class="contract">defnetloan</h1>
 
 ---
 spec_version: 0.2.0
@@ -383,7 +381,7 @@ The `defnetloan` action allows an account to withdraw tokens from the fund of a 
 
 As an authorized party I, {{ signer }}, wish to withdraw from the Network loan fund identified by loan number {{ loan_num }} on the account {{ from }} in the amount of {{ amount }} and have those tokens allocated to the REX fund of {{ from }}.
 
-<h1 class="clause">delegatebw</h1>
+<h1 class="contract">delegatebw</h1>
 
 ---
 spec_version: 0.2.0
@@ -398,7 +396,7 @@ By including the `--transfer` flag, {{ from }} would like to permanently transfe
 
 I understand that should I wish to unstake these tokens and relinquish the claim on resources that I shall be restricted by the wait period as described in `undelegatebw`.
 
-<h1 class="clause">deleteauth</h1>
+<h1 class="contract">deleteauth</h1>
 
 ---
 spec_version: 0.2.0
@@ -411,7 +409,7 @@ As an authorized party I, {{ signer }}, wish to delete the permission authority 
 
 I understand that this action, once called, cannot be revoked.
 
-<h1 class="clause">deposit</h1>
+<h1 class="contract">deposit</h1>
 
 ---
 spec_version: 0.2.0
@@ -424,7 +422,7 @@ The `deposit` action allows an account to deposit EOS tokens into their REX fund
 
 As an authorized party I, {{ signer }}, wish to deposit {{ amount }} EOS tokens into the REX fund of the account {{ owner }} from the liquid token balance of {{ owner }}.
 
-<h1 class="clause">fundcpuloan</h1>
+<h1 class="contract">fundcpuloan</h1>
 
 ---
 spec_version: 0.2.0
@@ -437,7 +435,7 @@ The `fundcpuloan` action allows an account to transfer tokens from its REX fund 
 
 As an authorized party I, {{ signer }}, wish to transfer the amount of {{ payment }} tokens into the CPU loan fund of the loan identified by loan number {{ loan_num }} from the account {{ from }} to be used for loan renewal at the expiry of {{ loan_num }}.
 
-<h1 class="clause">fundnetloan</h1>
+<h1 class="contract">fundnetloan</h1>
 
 ---
 spec_version: 0.2.0
@@ -450,7 +448,7 @@ The `fundnetloan` action allows an account to transfer tokens from its REX fund 
 
 As an authorized party I, {{ signer }}, wish to transfer the amount of {{ payment }} tokens into the Network loan fund of the loan identified by loan number {{ loan_num }} from the account {{ from }} to be used for loan renewal at the expiry of {{ loan_num }}.
 
-<h1 class="clause">linkauth</h1>
+<h1 class="contract">linkauth</h1>
 
 ---
 spec_version: 0.2.0
@@ -467,7 +465,7 @@ I can specify a specific action from contract {{ code }}, or I can use a wildcar
 
 I acknowledge that I cannot use `linkauth` for the following actions: `updateauth`, `deleteauth`, `linkauth`, `unlinkauth`, and `canceldelay`.
 
-<h1 class="clause">mvfrsavings</h1>
+<h1 class="contract">mvfrsavings</h1>
 
 ---
 spec_version: 0.2.0
@@ -480,7 +478,7 @@ The `mvfrsavings` action allows an account to move REX tokens from its savings b
 
 As an authorized party I, {{ signer }}, wish to move {{ rex }} tokens from the savings bucket of the account {{ owner }}. Those tokens shall become available to {{ owner }} 4 days from 00:00 UTC.
 
-<h1 class="clause">mvtosavings</h1>
+<h1 class="contract">mvtosavings</h1>
 
 ---
 spec_version: 0.2.0
@@ -493,7 +491,7 @@ The `mvtosavings` action allows an account to move REX tokens into a savings buc
 
 As an authorized party I, {{ signer }}, wish to move {{ rex }} tokens to a savings bucket associated to the account {{ owner }}. I acknowledge that those tokens will then be subject to any maturity restrictions described in the `mvfrsavings` action. 
 
-<h1 class="clause">newaccount</h1>
+<h1 class="contract">newaccount</h1>
 
 ---
 spec_version: 0.2.0
@@ -512,7 +510,7 @@ Should there be a `.` in {{ name }}, then only the account who has won the `bidn
 
 Should the account name {{ name }} be fewer than 12 characters and not contain a `.`, the `newaccount` action may only be called by the winner of the `bidname` auction for that suffix by using the same account that cast the winning bid.
 
-<h1 class="clause">refund</h1>
+<h1 class="contract">refund</h1>
 
 ---
 spec_version: 0.2.0
@@ -525,7 +523,7 @@ The `refund` action will manually trigger a return of EOS tokens that should hav
 
 As an authorized party I, {{ signer }}, wish to have the any unstaked tokens due to {{ owner }} returned as liquid EOS tokens into the account {{ owner }}.
 
-<h1 class="clause">regproducer</h1>
+<h1 class="contract">regproducer</h1>
 
 ---
 spec_version: 0.2.0
@@ -721,7 +719,7 @@ I, {{ producer }}, acknowledge that if I continue to call the `regproducer` acti
 
 我,{{ producer }}, 承认如果没有遵守或履行因违反 `regproducer` 而受到的惩罚要求却继续调用`regproducer`操作，BP 可以调用 `eosio.wrap` 合约将我用来注册出块节点的账号密钥设置为无效值。
 
-<h1 class="clause">regproxy</h1>
+<h1 class="contract">regproxy</h1>
 
 ---
 spec_version: 0.2.0
@@ -734,7 +732,7 @@ As an authorized party I, {{ signer }}, would like to register the account {{ pr
 
 As a proxy, the vote weight of all accounts who proxy to {{ proxy }} will be delegated along with its own. For all proposals created within `eosio.forum`, their vote weight will also be delegated to {{ proxy }}, unless that account chooses to cast their own vote for a proposal.
 
-<h1 class="clause">rentcpu</h1>
+<h1 class="contract">rentcpu</h1>
 
 ---
 spec_version: 0.2.0
@@ -749,7 +747,7 @@ As an authorized party I, {{ signer }}, wish to rent CPU bandwidth for 30 days f
 
 The amount of CPU bandwidth shall be determined by the market at time of loan execution and shall be recalculated at time of renewal, should I wish to automatically renew the loan at that time. I acknowledge that the amount of CPU bandwidth received in exchange of {{ loan_payment }} for the benefit of {{ receiver }} at loan renewal may be different from the current amount of bandwidth received. 
 
-<h1 class="clause">rentnet</h1>
+<h1 class="contract">rentnet</h1>
 
 ---
 spec_version: 0.2.0
@@ -764,7 +762,7 @@ As an authorized party I, {{ signer }}, wish to rent Network bandwidth for 30 da
 
 The amount of Network bandwidth shall be determined by the market at time of loan execution and shall be recalculated at time of renewal, should I wish to automatically renew the loan at that time. I acknowledge that the amount of Network bandwidth received in exchange of {{ loan_payment }} for the benefit of {{ receiver }} at loan renewal may be different from the current amount of bandwidth received. 
 
-<h1 class="clause">rexexec</h1>
+<h1 class="contract">rexexec</h1>
 
 ---
 spec_version: 0.2.0
@@ -777,7 +775,7 @@ The `rexexec` action allows any account to perform REX maintenance by processing
 
 I, {{ signer }}, wish to process up to {{ max }} of any CPU loans, Network loans, and sell orders that may currently be pending.
 
-<h1 class="clause">rmvproducer</h1>
+<h1 class="contract">rmvproducer</h1>
 
 ---
 spec_version: 0.2.0
@@ -798,7 +796,7 @@ Before approving the multisig proposal to execute the `rmvproducer` action, the 
 the best interests of the blockchain in mind, and not for any malicious purpose. The requested actors shall adhere to guidelines found 
 within `regproducer`, or any other governing documents which may make reference to `rmvproducer`.
 
-<h1 class="clause">sellram</h1>
+<h1 class="contract">sellram</h1>
 
 ---
 spec_version: 0.2.0
@@ -811,7 +809,7 @@ The `sellram` action sells currently unused RAM for EOS tokens.
 
 As an authorized party I, {{ signer }}, wish to sell {{ bytes }} of unused RAM from account {{ account }}. 
 
-<h1 class="clause">sellrex</h1>
+<h1 class="contract">sellrex</h1>
 
 ---
 spec_version: 0.2.0
@@ -826,7 +824,7 @@ As an authorized party I, {{ signer }}, wish to sell {{ rex }} REX tokens held o
 
 If there is an open `sellrex` order for the account {{ from }}, then this amount of {{ rex }} REX shall be added to the existing order and the order shall move to the back of the queue. 
 
-<h1 class="clause">setabi</h1>
+<h1 class="contract">setabi</h1>
 
 ---
 spec_version: 0.2.0
@@ -838,7 +836,7 @@ icon: NEED TO ADD
 As an authorized party I, {{ signer }}, would like to set the ABI file corresponding to the sha256 hash {{ abi }} to the account {{ account }}.
 The ABI data will be stored in the RAM of {{ account }}.
 
-<h1 class="clause">setcode</h1>
+<h1 class="contract">setcode</h1>
 
 ---
 spec_version: 0.2.0
@@ -852,7 +850,7 @@ The ABI data will be stored in the RAM of {{ account }}.
 
 When calling `setcode`, I shall produce suitable Ricaridan Contracts within the ABI file when calling `setabi` for the account {{ account }}.
 
-<h1 class="clause">undelegatebw</h1>
+<h1 class="contract">undelegatebw</h1>
 
 ---
 spec_version: 0.2.0
@@ -869,7 +867,7 @@ The CPU and Network bandwidth resources that have been unstaked will be immediat
 
 If I, {{ signer }} am not the beneficial owner of these tokens I stipulate I have been authorized to take this action by their beneficial owner(s). 
 
-<h1 class="clause">unlinkauth</h1>
+<h1 class="contract">unlinkauth</h1>
 
 ---
 spec_version: 0.2.0
@@ -881,7 +879,7 @@ icon: NEED TO ADD
 As an authorized party I, {{ signer }}, would like to unlink the authority attached to {{ code }}::{{ type }} for the account {{ account }}.
 This will remove any restrictions that may have previously existed for other authority permission's of {{ account }} to call {{ code }}::{{ type }}.
 
-<h1 class="clause">unregprod</h1>
+<h1 class="contract">unregprod</h1>
 
 ---
 spec_version: 0.2.0
@@ -894,7 +892,7 @@ The `unregprod` action unregisters a previously registered Block Producer Candid
 
 As an authorized party I, {{ signer }}, wish to unregister the Block Producer Candidate {{ producer }}, rendering that candidate no longer able to receive votes.
 
-<h1 class="clause">unstaketorex</h1>
+<h1 class="contract">unstaketorex</h1>
 
 ---
 spec_version: 0.2.0
@@ -909,7 +907,7 @@ As an authorized party I, {{ signer }}, wish to buy REX tokens by unstaking {{ f
 
 I am aware of, and have fulfilled, all voting requirements needed to participate in the REX marketplace.
 
-<h1 class="clause">updateauth</h1>
+<h1 class="contract">updateauth</h1>
 
 ---
 spec_version: 0.2.0
@@ -924,7 +922,7 @@ As an authorized party I, {{ signer }}, wish to add the new authority permission
 The authority {{ permission }} will not be able to call any actions linked specifically to any authorities to which it is a child of, or
 a sibling to.
 
-<h1 class="clause">updaterex</h1>
+<h1 class="contract">updaterex</h1>
 
 ---
 spec_version: 0.2.0
@@ -937,7 +935,7 @@ The `updaterex` action allows an account to update its vote weight.
 
 As an authorized party I, {{ signer }}, wish to update the REX vote stake and vote weight of the account {{ owner }}.
 
-<h1 class="clause">voteproducer</h1>
+<h1 class="contract">voteproducer</h1>
 
 ---
 spec_version: 0.2.0
@@ -956,7 +954,7 @@ I stipulate I have not, and will not, accept anything of value in exchange for t
 
 I acknowledge that using any system of automatic voting, re-voting, or vote refreshing, or allowing such a system to be used on my behalf or on behalf of another, is forbidden and doing so violates this contract.
 
-<h1 class="clause">withdraw</h1>
+<h1 class="contract">withdraw</h1>
 
 ---
 spec_version: 0.2.0
